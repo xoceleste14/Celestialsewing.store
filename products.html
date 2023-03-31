@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale = 1.0">
+    <title>All Products | Celestial-Sewing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="Free_Sample_By_Wix.jpg" width="145px" height="140px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Shop Now!</a></li>
+                    <li><a href="">Account</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </nav>
+            <img src="263142.png" width="30px" height="30px">
+            <img src="660376.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+</div>
+<h2><div class="title"> All Products! &#11167;</div></h2>
+<div class="row">
+    <div class="col-4">
+        <img src="coming-soon-stamp-1.png" alt="">
+        <h4>K-12 Dress: COMING SOON!</h4>
+        <div class="rating"><p>No rating yet!</p></div>
+        <p>$50 USD</p>
+    </div>
+<select>
+    <option>Sort By Sale</option>
+    <option>Sort By Price (L - H)</option>
+    <option>Sort By Price (H - L)</option>
+    <option>Sort By Popularity</option>
+    <option>Sort By Ratings</option>
+</select>
+<div class="row">
+    <div class="col-4">
+        <img src="coming-soon-stamp-1.png" alt="">
+        <h4>K-12 Dress: COMING SOON!</h4>
+        <div class="rating"><p>No rating yet!</p></div>
+        <p>$50 USD</p>
+    </div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Shop Now!</h3>
+                <p>This is the only website where YOU get what you need!</p>
+            </div>
+            <div class="footer-col-2">
+                <h3>DO NOT RESELL!</h3>
+                <p>Do not resell my clothes, they arent yours.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Contact for help!</h3>
+                <p>director@celestialsewing.com</p>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow the instagram!</h3>
+                <p>@xoceleste14</p>
+            </div>
+        </div>
+        <hr>
+            <p class="copyright">Copyright 2023 - celestialsewing</p>
+    </div>
+</div>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = ("0px")
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = ("200px");
+            }
+        else {
+            MenuItems.style.maxHeight = ('0px');
+        }
+    }
+</script>
+</body>
+</html>
